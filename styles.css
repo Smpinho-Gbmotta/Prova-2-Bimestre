@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #eaeaea;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+main {
+   display:grid;
+   grid-template-areas: "profile timeline";
+   grid-template-columns: 1fr 1fr;
+   
+}
+
+#login {
+   background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  justify-content: start;
+   
+  
+    width: 398px;
+    height: 450px;
+    top: 291px;
+    left: 780px;
+    border-radius: 12px;
+    border: 1px;
+
+
+}
+
+aside {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#senha form {
+gap: 1px;
+}
+
+#master{
+
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 80px;
+    max-width: 1004px;
+    max-height: 625px;
+
+}
+
+input {
+width: 398px;
+height: 49px;
+top: 392px;
+left: 780px;
+border-radius: 12px;
+border: 1px;
+}
+
+button {
+background: #C70000;
+width: 393px;
+height: 60px;
+top: 600px;
+left: 780px;
+border-radius: 12px;
+margin-top: 70px;
+}
